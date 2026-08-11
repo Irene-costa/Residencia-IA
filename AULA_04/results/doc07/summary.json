@@ -1,0 +1,95 @@
+{
+  "document": "instruct_gpt.md",
+  "experiments": [
+    {
+      "test_id": 1,
+      "strategy": "fixed",
+      "chunk_size": 200,
+      "chunk_overlap": 0,
+      "num_chunks": 915,
+      "avg_chunk_size": 199.5,
+      "embedding_dimension": 384
+    },
+    {
+      "test_id": 2,
+      "strategy": "fixed",
+      "chunk_size": 500,
+      "chunk_overlap": 0,
+      "num_chunks": 366,
+      "avg_chunk_size": 499.3,
+      "embedding_dimension": 384
+    },
+    {
+      "test_id": 3,
+      "strategy": "fixed",
+      "chunk_size": 1000,
+      "chunk_overlap": 0,
+      "num_chunks": 183,
+      "avg_chunk_size": 998.9,
+      "embedding_dimension": 384
+    },
+    {
+      "test_id": 4,
+      "strategy": "fixed",
+      "chunk_size": 2000,
+      "chunk_overlap": 0,
+      "num_chunks": 92,
+      "avg_chunk_size": 1987.3,
+      "embedding_dimension": 384
+    },
+    {
+      "test_id": 5,
+      "strategy": "fixed_with_overlap",
+      "chunk_size": 500,
+      "chunk_overlap": 50,
+      "num_chunks": 407,
+      "avg_chunk_size": 498.8,
+      "embedding_dimension": 384
+    },
+    {
+      "test_id": 6,
+      "strategy": "fixed_with_overlap",
+      "chunk_size": 500,
+      "chunk_overlap": 200,
+      "num_chunks": 609,
+      "avg_chunk_size": 499.6,
+      "embedding_dimension": 384
+    },
+    {
+      "test_id": 7,
+      "strategy": "by_paragraph",
+      "chunk_size": 0,
+      "chunk_overlap": 0,
+      "num_chunks": 137,
+      "avg_chunk_size": 1332.8,
+      "embedding_dimension": 384
+    },
+    {
+      "test_id": 8,
+      "strategy": "grouped_sentences",
+      "chunk_size": 0,
+      "chunk_overlap": 0,
+      "num_chunks": 542,
+      "avg_chunk_size": 336.4,
+      "embedding_dimension": 384
+    },
+    {
+      "test_id": 9,
+      "strategy": "recursive",
+      "chunk_size": 500,
+      "chunk_overlap": 50,
+      "num_chunks": 484,
+      "avg_chunk_size": 381.4,
+      "embedding_dimension": 384
+    },
+    {
+      "test_id": 10,
+      "strategy": "markdown_structure",
+      "chunk_size": 0,
+      "chunk_overlap": 0,
+      "num_chunks": 68,
+      "avg_chunk_size": 2673.0,
+      "embedding_dimension": 384
+    }
+  ]
+}

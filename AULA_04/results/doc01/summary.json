@@ -1,0 +1,95 @@
+{
+  "document": "attention_is_all_you_need.md",
+  "experiments": [
+    {
+      "test_id": 1,
+      "strategy": "fixed",
+      "chunk_size": 200,
+      "chunk_overlap": 0,
+      "num_chunks": 200,
+      "avg_chunk_size": 199.0,
+      "embedding_dimension": 384
+    },
+    {
+      "test_id": 2,
+      "strategy": "fixed",
+      "chunk_size": 500,
+      "chunk_overlap": 0,
+      "num_chunks": 80,
+      "avg_chunk_size": 497.9,
+      "embedding_dimension": 384
+    },
+    {
+      "test_id": 3,
+      "strategy": "fixed",
+      "chunk_size": 1000,
+      "chunk_overlap": 0,
+      "num_chunks": 40,
+      "avg_chunk_size": 996.0,
+      "embedding_dimension": 384
+    },
+    {
+      "test_id": 4,
+      "strategy": "fixed",
+      "chunk_size": 2000,
+      "chunk_overlap": 0,
+      "num_chunks": 20,
+      "avg_chunk_size": 1992.5,
+      "embedding_dimension": 384
+    },
+    {
+      "test_id": 5,
+      "strategy": "fixed_with_overlap",
+      "chunk_size": 500,
+      "chunk_overlap": 50,
+      "num_chunks": 89,
+      "avg_chunk_size": 496.9,
+      "embedding_dimension": 384
+    },
+    {
+      "test_id": 6,
+      "strategy": "fixed_with_overlap",
+      "chunk_size": 500,
+      "chunk_overlap": 200,
+      "num_chunks": 133,
+      "avg_chunk_size": 497.9,
+      "embedding_dimension": 384
+    },
+    {
+      "test_id": 7,
+      "strategy": "by_paragraph",
+      "chunk_size": 0,
+      "chunk_overlap": 0,
+      "num_chunks": 31,
+      "avg_chunk_size": 1283.7,
+      "embedding_dimension": 384
+    },
+    {
+      "test_id": 8,
+      "strategy": "grouped_sentences",
+      "chunk_size": 0,
+      "chunk_overlap": 0,
+      "num_chunks": 124,
+      "avg_chunk_size": 320.4,
+      "embedding_dimension": 384
+    },
+    {
+      "test_id": 9,
+      "strategy": "recursive",
+      "chunk_size": 500,
+      "chunk_overlap": 50,
+      "num_chunks": 108,
+      "avg_chunk_size": 375.1,
+      "embedding_dimension": 384
+    },
+    {
+      "test_id": 10,
+      "strategy": "markdown_structure",
+      "chunk_size": 0,
+      "chunk_overlap": 0,
+      "num_chunks": 15,
+      "avg_chunk_size": 2639.7,
+      "embedding_dimension": 384
+    }
+  ]
+}
